@@ -1,0 +1,15 @@
+//2.WAP to find whether tthe given 4-digit number (year) is leap year or not leap year.
+#include <stdio.h>
+#include <math.h>
+int main() {
+	int year;
+	printf("enter a year");
+	scanf("%d",&year);
+	if (year % 4==0){
+		printf("Entered year %d is a leap year",year);
+	}
+	else{
+		printf("it is not leap year");
+	}
+}
+
